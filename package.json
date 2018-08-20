@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "node-notifier": "^5.2.1",
+    "open": "0.0.5",
+    "rss-parser": "^3.4.3"
+  }
+}
