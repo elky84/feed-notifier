@@ -1,2 +1,2 @@
-# community_notifier
-community_crawler notifier
+# feed_notifier
+rss feed notifier
