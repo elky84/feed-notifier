@@ -1,0 +1,8 @@
+{
+    "hook": {
+        "hook_url":"", 
+        "notify_type": "RSS",
+        "icon_url": "https://www.bruegel.org/wp-content/uploads/2015/08/icon-rss.png",
+        "channel": ""
+    }
+}
