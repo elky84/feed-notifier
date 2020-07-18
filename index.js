@@ -19,8 +19,8 @@ function pollFeed() {
         var latestTime;
         
         try {
-            var latest = fs.readFileSync('./latest.json', 'utf8');
-            latestTime = latest['time']
+            var latest = JSON.parse(fs.readFileSync('./latest.json', 'utf8'));
+            latestTime = moment(latest['time'])
         }
         catch(err) {
             latestTime = moment().subtract(1, 'day')
@@ -40,11 +40,13 @@ function pollFeed() {
                 var messages = []
                 feed.items.forEach(item => {
                     // console.log(item.title + ':' + item.link)
-                    if(latestTime > moment(item.pubDate)) {
+
+                    var pubDate = moment(item.pubDate);
+                    if(pubDate.isBefore(latestTime)) {
                         return false;
                     }
 
-                    messages.push('[' + item.title + '] ' + item.link + ' <' + moment(item.pubDate).format('YYYY-MM-DD HH:mm') + '>');
+                    messages.push('[' + item.title + '] ' + item.link + ' <' + pubDate.format('YYYY-MM-DD HH:mm') + '>');
                 });
 
                 if(messages.length <= 0) {
