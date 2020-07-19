@@ -14,22 +14,19 @@ console.log("config: " + JSON.stringify(config));
 var sourcesRss = JSON.parse(fs.readFileSync('./feed.json', 'utf8'));
 
 function pollFeed() {
+    var latest = {};
     try {
         const hook = config["hook"];
-        var latestTime;
-        
         try {
-            var latest = JSON.parse(fs.readFileSync('./latest.json', 'utf8'));
-            latestTime = moment(latest['time'])
+            latest = JSON.parse(fs.readFileSync('./latest.json', 'utf8'));
         }
         catch(err) {
-            latestTime = moment().subtract(1, 'day')
+            console.log(err);
         }
 
+        var promises = []
         _.forEach(sourcesRss["sources-rss"], function(source) {
-            // console.log(source);
-    
-            parser.parseURL(source.url, function(err, feed) {
+            promises.push(parser.parseURL(source.url, function(err, feed) {
                 if (err) {
                     console.log(err);
                     return;
@@ -37,18 +34,31 @@ function pollFeed() {
 
                 console.log(feed.title);
 
+                var latestTime = latest[feed.title];
+                if( latestTime == undefined) {
+                    latestTime = moment().subtract(1, 'week');
+                }
+
+                var nextLatestTime = latestTime;
+
                 var messages = []
                 feed.items.forEach(item => {
                     // console.log(item.title + ':' + item.link)
-
                     var pubDate = moment(item.pubDate);
                     if(pubDate.isBefore(latestTime)) {
                         return false;
                     }
 
+                    if(nextLatestTime.isBefore(pubDate)) {
+                        nextLatestTime = pubDate;
+                    }
+
                     messages.push('[' + item.title + '] ' + item.link + ' <' + pubDate.format('YYYY-MM-DD HH:mm') + '>');
                 });
 
+
+                latest[feed.title] = nextLatestTime;
+                
                 if(messages.length <= 0) {
                     return;
                 }
@@ -57,11 +67,12 @@ function pollFeed() {
                 axios.post(hook.hook_url, message).then((result) => {
                     console.log(result);
                 });
-
-            });
+            }));
         });
 
-        fs.writeFileSync('./latest.json', JSON.stringify({time: moment()}));
+        Promise.all(promises).then((values) => {
+            fs.writeFileSync('./latest.json', JSON.stringify(latest));
+        });
     }
     catch(e) {
         console.log(e);
