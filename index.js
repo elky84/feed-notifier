@@ -38,6 +38,9 @@ function pollFeed() {
                 if( latestTime == undefined) {
                     latestTime = moment().subtract(1, 'week');
                 }
+                else {
+                    latestTime = moment(latestTime);
+                }
 
                 var nextLatestTime = latestTime;
 
@@ -45,7 +48,7 @@ function pollFeed() {
                 feed.items.forEach(item => {
                     // console.log(item.title + ':' + item.link)
                     var pubDate = moment(item.pubDate);
-                    if(pubDate.isBefore(latestTime)) {
+                    if(!latestTime.isBefore(pubDate)) {
                         return false;
                     }
 
