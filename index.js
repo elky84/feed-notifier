@@ -1,6 +1,3 @@
-var express = require('express');
-var app = express();
-var bodyParser  = require('body-parser');
 var axios = require('axios')
 var fs = require('fs');
 var _ = require('lodash');
@@ -56,7 +53,12 @@ function pollFeed() {
                         nextLatestTime = pubDate;
                     }
 
-                    messages.push('[' + item.title + '] ' + item.link + ' <' + pubDate.format('YYYY-MM-DD HH:mm') + '>');
+                    if(item.link.includes('https://')) {
+                        messages.push(`[${item.title}'] ${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
+                    }
+                    else {
+                        messages.push(`[${item.title}'] ${feed.link}${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
+                    }
                 });
 
 
@@ -75,16 +77,14 @@ function pollFeed() {
 
         Promise.all(promises).then((values) => {
             fs.writeFileSync('./latest.json', JSON.stringify(latest));
+            setTimeout(pollFeed, 3 * 60 * 1000);
         });
     }
     catch(e) {
         console.log(e);
+        setTimeout(pollFeed, 3 * 60 * 1000);
     }
 
 }
 
-// 우선 한번 실행하고
 pollFeed();
-
-// interval단위 실행
-setInterval(pollFeed, 3 * 60 * 1000);
