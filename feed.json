@@ -1,6 +1,14 @@
 {
     "sources-rss": [
         {
+            "url": "https://medium.com/feed/@ghilbut",
+            "title": "김준형 (토스, LG전자 등)"
+        },
+        {
+            "url": "https://blog.kivol.net/rss",
+            "title": "흔한 개발자 (노리 CTO 조승연)"
+        }
+        {
             "url": "https://devblogs.microsoft.com/cppblog/feed/",
             "title": "C++ Team Blog"
         },
