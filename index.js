@@ -49,6 +49,10 @@ function pollFeed() {
                         return false;
                     }
 
+                    if(pubDate.isBefore(moment())) {
+                        return false;
+                    }
+
                     if(nextLatestTime.isBefore(pubDate)) {
                         nextLatestTime = pubDate;
                     }
