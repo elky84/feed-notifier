@@ -80,7 +80,7 @@ function pollFeed() {
                             nextLatestTime = pubDate;
                         }
     
-                        if(item.link.includes('https://')) {
+                        if(item.link.includes('https://') || item.link.includes('http://')) {
                             messages.push(`[${item.title}'] ${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
                         }
                         else {
