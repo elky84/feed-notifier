@@ -17,7 +17,7 @@ fs.readdir(dirPath, function (err, files) {
 
         var content = fs.readFileSync(`${dirPath}/${file}`, 'utf8');
         var feedJson = JSON.parse(content);
-        feeds.concat(feedJson["sources-rss"]);
+        feeds = feeds.concat(feedJson["sources-rss"]);
     });
 
     pollFeed();
