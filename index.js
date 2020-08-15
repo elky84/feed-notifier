@@ -8,7 +8,21 @@ var moment = require('moment')
 var config = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
 console.log("config: " + JSON.stringify(config));
 
-var sourcesRss = JSON.parse(fs.readFileSync('./feed.json', 'utf8'));
+var feeds = []
+var dirPath = 'feeds'
+fs.readdir(dirPath, function (err, files) {
+    //listing all files using forEach
+    files.forEach(function (file) {
+        console.log(file); 
+
+        var content = fs.readFileSync(`${dirPath}/${file}`, 'utf8');
+        var feedJson = JSON.parse(content);
+        feeds.concat(feedJson["sources-rss"]);
+    });
+
+    pollFeed();
+});
+
 
 function pollFeed() {
     var latest = {};
@@ -22,7 +36,7 @@ function pollFeed() {
         }
 
         var promises = []
-        _.forEach(sourcesRss["sources-rss"], function(source) {
+        _.forEach(feeds, function(source) {
             promises.push(parser.parseURL(source.url, function(err, feed) {
                 if (err) {
                     console.log(err);
@@ -88,7 +102,4 @@ function pollFeed() {
         console.log(e);
         setTimeout(pollFeed, 3 * 60 * 1000);
     }
-
 }
-
-pollFeed();

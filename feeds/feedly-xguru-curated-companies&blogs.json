@@ -1,0 +1,1532 @@
+{
+    "sources-rss": [
+        {
+            "url": "https://cloudfour.com/feed/",
+            "title": "Cloud Four"
+        },
+        {
+            "url": "https://www.debugbear.com/blog/feed/rss",
+            "title": "DebugBear Blog"
+        },
+        {
+            "url": "https://blog.codepen.io/feed/",
+            "title": "CodePen Blog"
+        },
+        {
+            "url": "https://bocoup.com/feed",
+            "title": "Bocoup"
+        },
+        {
+            "url": "https://speedcurve.com/blog/rss/",
+            "title": "SpeedCurve Blog"
+        },
+        {
+            "url": "https://blog.cloudflare.com/rss/",
+            "title": "The Cloudflare Blog"
+        },
+        {
+            "url": "https://getflywheel.com/layout/feed/",
+            "title": "Layout | Creative content for designers, developers, & marketers"
+        },
+        {
+            "url": "https://codeascraft.com/feed/",
+            "title": "Code as Craft"
+        },
+        {
+            "url": "https://github.blog/engineering.atom",
+            "title": "Engineering – The GitHub Blog"
+        },
+        {
+            "url": "https://blog.heroku.com/feed",
+            "title": "Heroku"
+        },
+        {
+            "url": "https://blog.twitter.com/engineering/en_us/blog.rss",
+            "title": "English (US)"
+        },
+        {
+            "url": "https://americanexpress.io/feed.xml",
+            "title": "American Express Technology"
+        },
+        {
+            "url": "https://blog.npmjs.org/rss",
+            "title": "The npm Blog"
+        },
+        {
+            "url": "https://engineering.fb.com/feed/",
+            "title": "Facebook Engineering"
+        },
+        {
+            "url": "https://blog.logrocket.com/feed/",
+            "title": "LogRocket Blog"
+        },
+        {
+            "url": "https://www.machmetrics.com/speed-blog/feed/",
+            "title": "MachMetrics Speed Blog"
+        },
+        {
+            "url": "https://netflixtechblog.com/feed",
+            "title": "Netflix TechBlog - Medium"
+        },
+        {
+            "url": "https://github.blog/feed/",
+            "title": "The GitHub Blog"
+        },
+        {
+            "url": "https://www.levelaccess.com/feed/",
+            "title": "Level Access"
+        },
+        {
+            "url": "https://calibreapp.com/blog/rss.xml",
+            "title": "Calibre"
+        },
+        {
+            "url": "https://axesslab.com/feed/",
+            "title": "Axess Lab"
+        },
+        {
+            "url": "https://engineering.shopify.com/blogs/engineering.atom",
+            "title": "Shopify Engineering - Shopify Engineering"
+        },
+        {
+            "url": "https://instagram-engineering.com/feed",
+            "title": "Instagram Engineering - Medium"
+        },
+        {
+            "url": "https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots",
+            "title": "Giant Robots Smashing Into Other Giant Robots"
+        },
+        {
+            "url": "https://www.shimmercat.com/feed.xml",
+            "title": "ShimmerCat"
+        },
+        {
+            "url": "https://volument.com/rss.xml",
+            "title": "Volument Minimalism Blog"
+        },
+        {
+            "url": "https://www.blog.google/products/marketingplatform/360/rss/",
+            "title": "Google Marketing Platform"
+        },
+        {
+            "url": "http://www.simoahava.com/feed/",
+            "title": "Google Tag Manager and Google Analytics on Simo Ahava's blog"
+        },
+        {
+            "url": "https://www.digishuffle.com/feed/",
+            "title": "Digishuffle"
+        },
+        {
+            "url": "http://feeds.feedburner.com/analyticspros",
+            "title": "Analytics Pros"
+        },
+        {
+            "url": "http://webanalysis.blogspot.com/feeds/posts/default",
+            "title": "Digital Marketing and Analytics by Anil Batra"
+        },
+        {
+            "url": "https://hacks.mozilla.org/feed/",
+            "title": "Mozilla Hacks – the Web developer blog"
+        },
+        {
+            "url": "https://webaim.org/blog/feed",
+            "title": "WebAIM Blog"
+        },
+        {
+            "url": "https://blog.chromium.org/feeds/posts/default",
+            "title": "Chromium Blog"
+        },
+        {
+            "url": "https://blog.amp.dev/feed/",
+            "title": "The AMP Blog"
+        },
+        {
+            "url": "https://webmasters.googleblog.com/feeds/posts/default",
+            "title": "Google Webmaster Central Blog"
+        },
+        {
+            "url": "https://v8.dev/blog.atom",
+            "title": "V8"
+        },
+        {
+            "url": "https://www.w3.org/blog/news/feed",
+            "title": "W3C News"
+        },
+        {
+            "url": "https://webkit.org/feed/",
+            "title": "WebKit"
+        },
+        {
+            "url": "https://spreadprivacy.com/rss/",
+            "title": "DuckDuckGo Blog"
+        },
+        {
+            "url": "https://adblockplus.org/atom/?section=blog",
+            "title": "Adblock Plus and (a little) more - Blog"
+        },
+        {
+            "url": "https://developers.googleblog.com/feeds/posts/default",
+            "title": "Google Developers Blog"
+        },
+        {
+            "url": "https://www.w3.org/WAI/feed.xml",
+            "title": "Web Accessibility Initiative (WAI)"
+        },
+        {
+            "url": "https://developers.google.com/web/fundamentals/rss.xml",
+            "title": "Web Fundamentals"
+        },
+        {
+            "url": "https://blog.whatwg.org/feed",
+            "title": "The WHATWG Blog"
+        },
+        {
+            "url": "https://blog.mozilla.org/feed/",
+            "title": "The Mozilla Blog"
+        },
+        {
+            "url": "https://blogs.opera.com/news/feed/",
+            "title": "Opera News"
+        },
+        {
+            "url": "https://blogs.windows.com/msedgedev/feed/",
+            "title": "Microsoft Edge Blog"
+        },
+        {
+            "url": "https://brave.com/feed/",
+            "title": "Brave Browser"
+        },
+        {
+            "url": "https://developers.google.com/web/updates/rss.xml",
+            "title": "Updates"
+        },
+        {
+            "url": "https://www.blog.google/products/chrome/rss",
+            "title": "Google Chrome"
+        },
+        {
+            "url": "http://html5doctor.com/feed/",
+            "title": "HTML5 Doctor"
+        },
+        {
+            "url": "http://feeds.grack.com/grack",
+            "title": "grack.com"
+        },
+        {
+            "url": "https://ariya.io/index.xml",
+            "title": "ariya.io"
+        },
+        {
+            "url": "https://feeds.feedburner.com/WhenCanIUse",
+            "title": "Can I Use updates"
+        },
+        {
+            "url": "https://ma.ttias.be/feed/",
+            "title": "Blog archive by Mattias Geniar on ma.ttias.be"
+        },
+        {
+            "url": "https://www.davrous.com/feed/",
+            "title": "David Rousset"
+        },
+        {
+            "url": "https://briankardell.wordpress.com/feed/",
+            "title": "briankardell"
+        },
+        {
+            "url": "https://brionv.com/log/feed/",
+            "title": "brionv"
+        },
+        {
+            "url": "https://blog.almaer.com/feed/",
+            "title": "Dion Almaer"
+        },
+        {
+            "url": "https://antoinevastel.com/feed.xml",
+            "title": "https://antoinevastel.com/feed.xml"
+        },
+        {
+            "url": "https://adamwathan.me/rss/index.xml",
+            "title": "Adam Wathan's Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/addyosmani",
+            "title": "Addy Osmani"
+        },
+        {
+            "url": "https://www.fxsitecompat.com/en-US/index.xml",
+            "title": "Firefox Site Compatibility"
+        },
+        {
+            "url": "https://nooshu.github.io/feed.xml",
+            "title": "Frontend Web Developer, Oxfordshire, UK - Matt Hobbs"
+        },
+        {
+            "url": "https://www.martinkaptein.com/blog/index.xml",
+            "title": "Blog on Martin Kaptein"
+        },
+        {
+            "url": "https://blog.mozilla.org/data/feed/",
+            "title": "Data@Mozilla"
+        },
+        {
+            "url": "https://benmccormick.org/feed.json",
+            "title": "benmccormick.org"
+        },
+        {
+            "url": "http://www.smashingmagazine.com/feed/",
+            "title": "Articles on Smashing Magazine — For Web Designers And Developers"
+        },
+        {
+            "url": "https://www.clarkio.com/feed.xml",
+            "title": "Clarkio"
+        },
+        {
+            "url": "https://gideonpyzer.dev/blog/index.xml",
+            "title": "Blog Archive on Gideon Pyzer - Web Developer"
+        },
+        {
+            "url": "http://feeds.feedburner.com/DeanHumesBlog",
+            "title": "Dean Hume's Blog"
+        },
+        {
+            "url": "http://cwilso.com/feed/",
+            "title": "in progress"
+        },
+        {
+            "url": "https://jlongster.com/atom.xml",
+            "title": "James Long"
+        },
+        {
+            "url": "https://ehsanakhgari.org/index.xml",
+            "title": "Home Page on Home Page"
+        },
+        {
+            "url": "http://phonegap.com/blog/feed.xml",
+            "title": "Archived Blog"
+        },
+        {
+            "url": "https://accessibility.blog.gov.uk/feed/atom/",
+            "title": "Accessibility in government"
+        },
+        {
+            "url": "http://aerotwist.com/blog/feed/",
+            "title": "Aerotwist Blog"
+        },
+        {
+            "url": "https://accessibledreams.home.blog/feed/",
+            "title": "Accessible Dreams"
+        },
+        {
+            "url": "http://www.glazman.org/weblog/dotclear/index.php?feed/rss2",
+            "title": "glazman/weblog"
+        },
+        {
+            "url": "https://www.aymen-loukil.com/en/feed/",
+            "title": "Aymen Loukil"
+        },
+        {
+            "url": "https://dmitripavlutin.com/rss/",
+            "title": "Dmitri Pavlutin Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/90percentofeverything/feed",
+            "title": "90 Percent of Everything - by Harry Brignull"
+        },
+        {
+            "url": "https://www.aaronpeters.nl/rss/feed.xml",
+            "title": "Aaron Peters Web Performance Blog"
+        },
+        {
+            "url": "https://feed.ctrl.blog/latest.atom",
+            "title": "Ctrl blog"
+        },
+        {
+            "url": "http://www.coolfields.co.uk/feed/",
+            "title": "Coolfields Consulting"
+        },
+        {
+            "url": "http://feeds.feedburner.com/andydavies",
+            "title": "Andy Davies"
+        },
+        {
+            "url": "http://reefpoints.dockyard.com/atom.xml",
+            "title": "DockYard blog"
+        },
+        {
+            "url": "https://frontstuff.io/feed.xml",
+            "title": "frontstuff"
+        },
+        {
+            "url": "http://girliemac.com/feed.xml",
+            "title": "GirlieMac! Blog"
+        },
+        {
+            "url": "http://inclusive-components.club/rss/",
+            "title": "Inclusive Components"
+        },
+        {
+            "url": "http://feeds.feedburner.com/kizuruen",
+            "title": "Articles & Experiments by Roman Komarov on kizu.ru"
+        },
+        {
+            "url": "http://githubengineering.com/atom.xml",
+            "title": "Engineering – The GitHub Blog"
+        },
+        {
+            "url": "http://furbo.org/feed/",
+            "title": "furbo.org"
+        },
+        {
+            "url": "http://www.hassellinclusion.com/feed/",
+            "title": "Hassell Inclusion"
+        },
+        {
+            "url": "http://jankfree.org/feed/all.xml",
+            "title": "Jank Free"
+        },
+        {
+            "url": "http://jakearchibald.com/posts.rss",
+            "title": "Jake Archibald's blog"
+        },
+        {
+            "url": "http://chrislord.net/index.php/feed/",
+            "title": "ChrisLord.net"
+        },
+        {
+            "url": "http://html5apps-project.eu/feed/",
+            "title": "HTML5 Apps"
+        },
+        {
+            "url": "http://hood.ie/feed.xml",
+            "title": "hood.ie"
+        },
+        {
+            "url": "http://farmdev.com/feeds/thoughts/",
+            "title": "Farmdev: Thoughts"
+        },
+        {
+            "url": "http://evanminto.com/feed/blog.xml",
+            "title": "Evan Minto"
+        },
+        {
+            "url": "http://www.backalleycoder.com/feed/",
+            "title": "Back Alley Coder"
+        },
+        {
+            "url": "http://blog.chromium.org/feeds/posts/default",
+            "title": "Chromium Blog"
+        },
+        {
+            "url": "http://cssanimation.rocks/feed.xml",
+            "title": "CSS Animation"
+        },
+        {
+            "url": "https://ethanmarcotte.com/wrote/feed.xml",
+            "title": "Ethan Marcotte’s website"
+        },
+        {
+            "url": "https://www.carlrippon.com/rss.xml",
+            "title": "Building SPAs"
+        },
+        {
+            "url": "http://www.bennadel.com/index.cfm?event=blog.rss",
+            "title": "Ben Nadel's Web Development and User Experience Feed @ BenNadel.com"
+        },
+        {
+            "url": "http://www.broken-links.com/feed/",
+            "title": "Broken Links"
+        },
+        {
+            "url": "https://www.boia.org/blog/rss.xml",
+            "title": "Blog-Main"
+        },
+        {
+            "url": "https://accessible-digital-documents.com/feed/",
+            "title": "ADD"
+        },
+        {
+            "url": "https://graficos.net/feed.xml",
+            "title": "Graficos.net"
+        },
+        {
+            "url": "http://www.guardian.co.uk/info/developer-blog/rss",
+            "title": "Digital blog | The Guardian"
+        },
+        {
+            "url": "http://brutelogic.com.br/blog/feed/",
+            "title": "Brute XSS"
+        },
+        {
+            "url": "https://markdotto.com/atom.xml",
+            "title": "@mdo"
+        },
+        {
+            "url": "https://alexanderell.is/index.xml",
+            "title": "Caffeinspiration"
+        },
+        {
+            "url": "https://www.upyoura11y.com/rss.xml",
+            "title": "Gatsby RSS feed"
+        },
+        {
+            "url": "https://vgpena.github.io/feed.xml",
+            "title": "hey it's violet"
+        },
+        {
+            "url": "https://daveceddia.com/feed.xml",
+            "title": "Dave Ceddia"
+        },
+        {
+            "url": "http://jamesknelson.com/feed/",
+            "title": "James K Nelson"
+        },
+        {
+            "url": "http://engineering.curiositymedia.com/blog?format=RSS",
+            "title": "Engineering Blog - Curiosity Media Engineering"
+        },
+        {
+            "url": "https://blog.mozilla.org/webrtc/feed/",
+            "title": "Advancing WebRTC"
+        },
+        {
+            "url": "http://feeds.feedburner.com/csswizardry",
+            "title": "CSS Wizardry"
+        },
+        {
+            "url": "https://ecmascript-daily.github.io/atom.xml",
+            "title": "ECMAScript Daily"
+        },
+        {
+            "url": "http://feeds.feedburner.com/ashleynolan",
+            "title": "AshleyNolan.co.uk"
+        },
+        {
+            "url": "http://monicalent.com/blog/index.xml",
+            "title": "Blogs on Monica Lent"
+        },
+        {
+            "url": "https://chuttenblog.wordpress.com/feed/",
+            "title": "chuttenblog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/damonbauer",
+            "title": "damonbauer.me"
+        },
+        {
+            "url": "http://blog.atom.io/feed.xml",
+            "title": "Atom Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/Bludice",
+            "title": "David Walsh Blog"
+        },
+        {
+            "url": "https://www.aetherpoint.com/feed.xml",
+            "title": "Aetherpoint"
+        },
+        {
+            "url": "https://css-irl.info/rss.xml",
+            "title": "CSS { In Real Life }"
+        },
+        {
+            "url": "https://www.filamentgroup.com/lab/atom.xml",
+            "title": "Filament Group, Inc: Lab"
+        },
+        {
+            "url": "http://hansmuller-webkit.blogspot.com/feeds/posts/default",
+            "title": "Hans Muller's WebKit Blog"
+        },
+        {
+            "url": "http://dbushell.com/rss/",
+            "title": "David Bushell"
+        },
+        {
+            "url": "https://gdsengagement.blog.gov.uk/feed/",
+            "title": "GDS Digital Engagement"
+        },
+        {
+            "url": "https://blog.mozilla.org/javascript/feed/",
+            "title": "JavaScript"
+        },
+        {
+            "url": "https://feeding.cloud.geek.nz/index.rss",
+            "title": "Feeding the Cloud"
+        },
+        {
+            "url": "http://www.aimeemarieknight.com/feed.xml",
+            "title": "Aimee Knight"
+        },
+        {
+            "url": "http://www.heydonworks.com/feed",
+            "title": "HeydonWorks"
+        },
+        {
+            "url": "https://alastairc.uk/feed/",
+            "title": "AlastairC"
+        },
+        {
+            "url": "http://bitsup.blogspot.com/feeds/posts/default",
+            "title": "Bits Up!"
+        },
+        {
+            "url": "https://falkus.co/feed/",
+            "title": "Falkus.co"
+        },
+        {
+            "url": "http://una.im/feed.xml",
+            "title": "Almost Profound: The Audio Blog of Una Kravets"
+        },
+        {
+            "url": "https://blog.mozilla.org/ux/feed/",
+            "title": "Firefox UX"
+        },
+        {
+            "url": "https://cathydutton.co.uk/feed.xml",
+            "title": "Cheshire based Human Centered Designer - Cathy Dutton"
+        },
+        {
+            "url": "https://iamakulov.com/notes/feed/",
+            "title": "Ivan Akulov’s blog"
+        },
+        {
+            "url": "https://www.coreycleary.me/feed/",
+            "title": "Corey Cleary"
+        },
+        {
+            "url": "http://www.jasonformat.com/rss/",
+            "title": "JASON Format"
+        },
+        {
+            "url": "https://labs.ft.com/feed.xml",
+            "title": "FT Labs Blog"
+        },
+        {
+            "url": "http://florian.rivoal.net/blog/feed.xml",
+            "title": "Florian’s Blog"
+        },
+        {
+            "url": "https://www.sarasoueidan.com/blog/index.xml",
+            "title": "Articles on SaraSoueidan.com"
+        },
+        {
+            "url": "https://www.w3.org/community/web-adv/feed/",
+            "title": "Improving Web Advertising Business Group"
+        },
+        {
+            "url": "http://www.didoo.net/feed/",
+            "title": "Didoo"
+        },
+        {
+            "url": "https://dbaron.org/log/atom-feed",
+            "title": "David Baron's Weblog"
+        },
+        {
+            "url": "https://blog.angular.io/feed",
+            "title": "Angular Blog - Medium"
+        },
+        {
+            "url": "https://dev.opera.com/feed/",
+            "title": "Dev.Opera"
+        },
+        {
+            "url": "https://chrisruppel.com/blog.xml",
+            "title": "Chris Ruppel's Blog"
+        },
+        {
+            "url": "https://blog.erratasec.com/feeds/posts/default",
+            "title": "Errata Security"
+        },
+        {
+            "url": "http://generatedcontent.org/rss",
+            "title": "Generated Content by David Storey"
+        },
+        {
+            "url": "http://franklinta.com/feed/",
+            "title": "Franklin Ta"
+        },
+        {
+            "url": "http://feeds.igvita.com/igvita",
+            "title": "igvita.com"
+        },
+        {
+            "url": "https://benmarshall.me/feed/",
+            "title": "Ben Marshall"
+        },
+        {
+            "url": "https://robots.thoughtbot.com/web/feed",
+            "title": "Giant Robots Smashing Into Other Giant Robots"
+        },
+        {
+            "url": "https://dougsillars.com/feed/",
+            "title": "Doug Sillars: Performance Expert and Developer Advocate"
+        },
+        {
+            "url": "https://frederik-braun.com/feeds/all.atom.xml",
+            "title": "Frederik Braun"
+        },
+        {
+            "url": "https://gds.blog.gov.uk/feed/",
+            "title": "Government Digital Service"
+        },
+        {
+            "url": "http://feeds.feedburner.com/html5rocks",
+            "title": "HTML5Rocks"
+        },
+        {
+            "url": "http://feeds.feedburner.com/gonzoblognl",
+            "title": "gonzoblog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/GDBcode",
+            "title": "Google Developers Blog"
+        },
+        {
+            "url": "http://adblockplus.org/atom/?section=blog",
+            "title": "Adblock Plus and (a little) more - Blog"
+        },
+        {
+            "url": "https://ar.al/index.xml",
+            "title": "Aral Balkan"
+        },
+        {
+            "url": "https://snyk.io/blog/feed",
+            "title": "Blog – Snyk"
+        },
+        {
+            "url": "http://feeds.feedburner.com/smuscom",
+            "title": "Boris Smus"
+        },
+        {
+            "url": "http://www.ianbicking.org/feeds/atom.xml",
+            "title": "Ian Bicking: a blog"
+        },
+        {
+            "url": "https://hiddedevries.nl/rss/full/",
+            "title": "hiddedevries.nl Blog"
+        },
+        {
+            "url": "https://stuffandnonsense.co.uk/blog/feed",
+            "title": "All that Malarkey"
+        },
+        {
+            "url": "https://blog.tomayac.com/feed/feed.xml",
+            "title": "Blogccasion"
+        },
+        {
+            "url": "https://www.browserlondon.com/feed/",
+            "title": "Browser London"
+        },
+        {
+            "url": "https://nielsleenheer.com/feed/",
+            "title": "Hello my name is Niels Leenheer"
+        },
+        {
+            "url": "http://blog.appcanary.com/feed.xml",
+            "title": "Appcanary"
+        },
+        {
+            "url": "https://blog.google/products/ads/rss/",
+            "title": "Google Ads"
+        },
+        {
+            "url": "https://www.ekioh.com/feed/",
+            "title": "Ekioh"
+        },
+        {
+            "url": "https://evertpot.com/atom.xml",
+            "title": "Het bijstere spoor"
+        },
+        {
+            "url": "http://feeds.feedburner.com/2ality?format=xml",
+            "title": "2ality – JavaScript and more"
+        },
+        {
+            "url": "http://adactio.com/journal/rss",
+            "title": "Adactio: Journal"
+        },
+        {
+            "url": "http://www.fastly.com/blog/feed",
+            "title": "Fastly Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/24ways",
+            "title": "24 ways"
+        },
+        {
+            "url": "http://glebbahmutov.com/blog/atom.xml",
+            "title": "Better world by better software"
+        },
+        {
+            "url": "https://burkeknowswords.com/feed",
+            "title": "Burke Knows Words - Medium"
+        },
+        {
+            "url": "http://feeds.feedburner.com/GoogleOpenSourceBlog",
+            "title": "Google Open Source Blog"
+        },
+        {
+            "url": "https://fotis.xyz/feed/feed.xml",
+            "title": "Fotis Papadogeorgopoulos"
+        },
+        {
+            "url": "https://foobartel.com/feed",
+            "title": "foobartel.com :: All Posts"
+        },
+        {
+            "url": "http://filipbech.github.io/feed.xml",
+            "title": "Filip Bruun Bech-Larsen"
+        },
+        {
+            "url": "http://julian.io/rss/",
+            "title": "@juliancwirko"
+        },
+        {
+            "url": "http://feeds.feedburner.com/tympanus?format=xml",
+            "title": "Codrops"
+        },
+        {
+            "url": "https://ericbidelman.com/rss.xml",
+            "title": "Eric Bidelman"
+        },
+        {
+            "url": "https://micahflee.com/feed.xml",
+            "title": "feed.xml"
+        },
+        {
+            "url": "http://vakila.github.io/feed.xml",
+            "title": "Anjana Sofia Vakil"
+        },
+        {
+            "url": "http://www.brianbondy.com/feeds/rss/",
+            "title": "Brian R. Bondy's Feed"
+        },
+        {
+            "url": "http://aaron-gustafson.com/atom.xml",
+            "title": "Aaron Gustafson: Latest Posts & Links"
+        },
+        {
+            "url": "https://chanind.github.io/feed.xml",
+            "title": "chanind.github.io"
+        },
+        {
+            "url": "http://feeds.feedburner.com/CssTricks",
+            "title": "CSS-Tricks"
+        },
+        {
+            "url": "http://feeds.feedburner.com/AlexSexton",
+            "title": "Alex Sexton"
+        },
+        {
+            "url": "http://hugogiraudel.com/rss",
+            "title": "Hugo Giraudel"
+        },
+        {
+            "url": "http://feeds.feedburner.com/brad-frosts-blog",
+            "title": "Brad Frost"
+        },
+        {
+            "url": "https://www.alexrp.co.uk/rss.xml",
+            "title": "A web performance blog"
+        },
+        {
+            "url": "https://catalin.red/feed",
+            "title": "Catalin Red"
+        },
+        {
+            "url": "http://ishadeed.com/feed.xml",
+            "title": "Ahmad Shadeed Blog"
+        },
+        {
+            "url": "https://schepp.dev/feed/feed.xml",
+            "title": "Der Schepp"
+        },
+        {
+            "url": "https://flyweb.github.io/feed.xml",
+            "title": "FlyWeb"
+        },
+        {
+            "url": "https://feross.org/atom.xml",
+            "title": "Feross.org"
+        },
+        {
+            "url": "http://a11ywins.tumblr.com/rss",
+            "title": "Accessibility Wins"
+        },
+        {
+            "url": "https://blog.benmyers.dev/feed.xml",
+            "title": "Ben Myers"
+        },
+        {
+            "url": "http://christianheilmann.com/feed/",
+            "title": "Christian Heilmann"
+        },
+        {
+            "url": "http://www.deque.com/feed",
+            "title": "Deque"
+        },
+        {
+            "url": "http://allinthehead.com/rss/",
+            "title": "All in the head"
+        },
+        {
+            "url": "https://www.creativejuiz.fr/blog/en/feed",
+            "title": "Creative Juiz"
+        },
+        {
+            "url": "http://ben-evans.com/benedictevans?format=RSS",
+            "title": "Essays - Benedict Evans"
+        },
+        {
+            "url": "http://www.agmweb.ca/atom.xml",
+            "title": "Andy McKay"
+        },
+        {
+            "url": "http://clagnut.com/feeds/fullposts.xml",
+            "title": "Clagnut"
+        },
+        {
+            "url": "https://www.javascriptjanuary.com/blog?format=RSS",
+            "title": "JavaScript January"
+        },
+        {
+            "url": "http://bloggeek.me/feed/",
+            "title": "BlogGeek.me"
+        },
+        {
+            "url": "http://blog.mozilla.com/futurereleases/feed/",
+            "title": "Future Releases"
+        },
+        {
+            "url": "http://w3.eleqtriq.com/feed/",
+            "title": "eleqtriq"
+        },
+        {
+            "url": "http://eng.wealthfront.com/feed/",
+            "title": "Engineering Blog – Wealthfront"
+        },
+        {
+            "url": "http://goer.org/Journal/feed",
+            "title": "goer.org"
+        },
+        {
+            "url": "http://gruntjs.com/rss",
+            "title": "Grunt Blog Feed"
+        },
+        {
+            "url": "http://www.ietf.org/blog/feed/",
+            "title": "IETF Blog"
+        },
+        {
+            "url": "https://9elements.com/blog/rss/",
+            "title": "9elements Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/just-a-blog",
+            "title": "A blog by G.C. Marty"
+        },
+        {
+            "url": "http://chromiumconfessions.blogspot.com/feeds/posts/default",
+            "title": "Chromium Confessions"
+        },
+        {
+            "url": "https://hswolff.com/rss.xml",
+            "title": "hswolff"
+        },
+        {
+            "url": "https://jason-williams.co.uk/feed/",
+            "title": "Jason Williams"
+        },
+        {
+            "url": "https://nec.is/rss.xml",
+            "title": "Gatsby RSS feed"
+        },
+        {
+            "url": "https://daniel.haxx.se/blog/feed/",
+            "title": "daniel.haxx.se"
+        },
+        {
+            "url": "http://meiert.com/en/feed/",
+            "title": "Blog (Web Development, Mostly) · Jens Oliver Meiert"
+        },
+        {
+            "url": "https://designnotes.blog.gov.uk/feed/",
+            "title": "Design in government"
+        },
+        {
+            "url": "http://howdns.works/feed.xml",
+            "title": "How DNS works"
+        },
+        {
+            "url": "https://blog.google/products/chrome/rss/",
+            "title": "Google Chrome"
+        },
+        {
+            "url": "http://palant.de/atom/",
+            "title": "Almost Secure"
+        },
+        {
+            "url": "https://medinathoughts.com/feed/",
+            "title": "Alberto Medina's Blog"
+        },
+        {
+            "url": "https://infrequently.org/feed/",
+            "title": "Infrequently Noted"
+        },
+        {
+            "url": "http://dominictarr.com/rss",
+            "title": "cyberhoboing with dominic tarr"
+        },
+        {
+            "url": "https://ind.ie/blog/rss/index.xml",
+            "title": "Ind.ie News"
+        },
+        {
+            "url": "https://evanminto.com/feed/blog.xml",
+            "title": "Evan Minto"
+        },
+        {
+            "url": "https://charlesrt.uk/feed.xml",
+            "title": "Designer · Charles Reynolds-Talbot"
+        },
+        {
+            "url": "https://www.cssmine.com/rss",
+            "title": "CSS Mine"
+        },
+        {
+            "url": "https://bryanlrobinson.com/feed.xml",
+            "title": "bryanlrobinson.com"
+        },
+        {
+            "url": "https://blog.mozilla.org/advancingcontent/feed/",
+            "title": "Advancing Content"
+        },
+        {
+            "url": "https://codemenatalie.com/feed/",
+            "title": "Code Me Natalie"
+        },
+        {
+            "url": "https://callmenick.com/index.xml",
+            "title": "Hi, I'm Nick on Call Me Nick"
+        },
+        {
+            "url": "http://webkit.org/blog/feed/",
+            "title": "Blog – WebKit"
+        },
+        {
+            "url": "http://ericbidelman.tumblr.com/rss",
+            "title": "Eric Bidelman"
+        },
+        {
+            "url": "https://www.danielworsnup.com/rss.xml",
+            "title": "Daniel Worsnup"
+        },
+        {
+            "url": "https://ryankubik.com/blog/rss.xml",
+            "title": "Games & Code by Ryan Kubik"
+        },
+        {
+            "url": "http://benediktmeurer.de/feed.xml",
+            "title": "Benedikt Meurer"
+        },
+        {
+            "url": "https://www.giftegwuenu.com/rss.xml",
+            "title": "Gift Egwuenu"
+        },
+        {
+            "url": "http://robert.ocallahan.org/feeds/posts/default",
+            "title": "Eyes Above The Waves"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/ImpressiveWebs",
+            "title": "Impressive Webs"
+        },
+        {
+            "url": "https://andy-bell.design/feed/all.xml",
+            "title": "Everything from andy-bell.design"
+        },
+        {
+            "url": "https://www.24a11y.com/feed/",
+            "title": "24 Accessibility"
+        },
+        {
+            "url": "https://www.brycevandyk.com/rss/",
+            "title": "Bryce Van Dyk"
+        },
+        {
+            "url": "https://www.a11ywithlindsey.com/rss.xml",
+            "title": "a11y with Lindsey"
+        },
+        {
+            "url": "http://www.a11ymatters.com/feed.xml",
+            "title": "a11ymatters"
+        },
+        {
+            "url": "http://blog.lmorchard.com/index.rss",
+            "title": "blog.lmorchard.com"
+        },
+        {
+            "url": "https://www.w3.org/community/immersive-web/feed/",
+            "title": "Immersive Web Community Group"
+        },
+        {
+            "url": "http://alistapart.com/main/feed",
+            "title": "A List Apart: The Full Feed"
+        },
+        {
+            "url": "http://bitsofco.de/rss/",
+            "title": "bitsofcode"
+        },
+        {
+            "url": "http://blog.froont.com/rss/",
+            "title": "Design the open web"
+        },
+        {
+            "url": "http://www.erahm.org/feed/",
+            "title": "Eric Rahm"
+        },
+        {
+            "url": "http://feeds.baymard.com/baymard?_ga=1.110790726.2145183607.1414082693",
+            "title": "Baymard Institute"
+        },
+        {
+            "url": "http://vocamus.net/dave/?feed=rss2",
+            "title": "Bread and Circuits"
+        },
+        {
+            "url": "http://angularjs.blogspot.com/feeds/posts/default",
+            "title": "AngularJS"
+        },
+        {
+            "url": "https://blog.nightly.mozilla.org/feed/",
+            "title": "Firefox Nightly News"
+        },
+        {
+            "url": "http://erikrunyon.com/feed.xml",
+            "title": "Erik Runyon"
+        },
+        {
+            "url": "http://www.holovaty.com/rss/",
+            "title": "Holovaty.com"
+        },
+        {
+            "url": "http://adrianroselli.com/feed",
+            "title": "Adrian Roselli"
+        },
+        {
+            "url": "http://googleonlinesecurity.blogspot.com/atom.xml",
+            "title": "Google Online Security Blog"
+        },
+        {
+            "url": "http://hayato.io/feeds/all.atom.xml",
+            "title": "hayato"
+        },
+        {
+            "url": "http://www.csskarma.com/blog/feed/",
+            "title": "Comments on: Blog"
+        },
+        {
+            "url": "http://brendaneich.com/feed/",
+            "title": "Brendan Eich"
+        },
+        {
+            "url": "https://ericwbailey.design/feed/feed.xml",
+            "title": "Eric Bailey"
+        },
+        {
+            "url": "https://humanwhocodes.com/feeds/blog.xml",
+            "title": "Human Who Codes"
+        },
+        {
+            "url": "https://illustrated.dev/rss.xml",
+            "title": "Illustrated.dev"
+        },
+        {
+            "url": "https://dannyvankooten.com/feed.xml",
+            "title": "Danny van Kooten"
+        },
+        {
+            "url": "http://daverupert.com/atom.xml",
+            "title": "daverupert.com"
+        },
+        {
+            "url": "https://betterwebtype.com/feed.xml",
+            "title": "Better Web Type"
+        },
+        {
+            "url": "http://dmitrysoshnikov.com/feed/",
+            "title": "Dmitry Soshnikov"
+        },
+        {
+            "url": "https://bramstein.com/rss.xml",
+            "title": "bramstein.com news"
+        },
+        {
+            "url": "http://debugmode.net/feed/",
+            "title": "Dhananjay Kumar"
+        },
+        {
+            "url": "http://fremycompany.com/BG/RSS/",
+            "title": "FremyCompany Blog"
+        },
+        {
+            "url": "http://codingitwrong.com/feed.xml",
+            "title": "CodingItWrong.com"
+        },
+        {
+            "url": "http://www.torgo.com/blog/feed",
+            "title": "Dan's Blog"
+        },
+        {
+            "url": "http://glueckpress.com/feed",
+            "title": "GlückPress"
+        },
+        {
+            "url": "https://www.cjcid.com/feeds/articles.xml",
+            "title": "CJCid"
+        },
+        {
+            "url": "https://bendyworks.com/feed/rss.xml",
+            "title": "Bendyworks Blog"
+        },
+        {
+            "url": "https://www.elephate.com/feed/",
+            "title": "Elephate"
+        },
+        {
+            "url": "https://adamsilver.io/atom.xml",
+            "title": "Adam Silver"
+        },
+        {
+            "url": "http://www.darice.org/feed/",
+            "title": "darice.org"
+        },
+        {
+            "url": "http://blog.w3conversions.com/feed/",
+            "title": "Fleeting Epiphanies"
+        },
+        {
+            "url": "http://feeds.dantup.com/DanTup",
+            "title": "Danny Tuppeny"
+        },
+        {
+            "url": "http://component.kitchen/feeds/blog.xml",
+            "title": "Component Kitchen"
+        },
+        {
+            "url": "https://equinusocio.dev/feed.xml",
+            "title": "Equinusocio Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/blogspot/amDG",
+            "title": "Google Webmaster Central Blog"
+        },
+        {
+            "url": "http://blog.codepen.io/feed/",
+            "title": "CodePen Blog"
+        },
+        {
+            "url": "http://shortdiv.com/index.xml",
+            "title": "shortdiv.com"
+        },
+        {
+            "url": "http://americanexpress.io/feed.xml",
+            "title": "American Express Technology"
+        },
+        {
+            "url": "http://addyosmani.com/rss.xml",
+            "title": "AddyOsmani.com"
+        },
+        {
+            "url": "https://hussein-alhammad.com/blog/rss.xml",
+            "title": "Blog - Hussein Al Hammad"
+        },
+        {
+            "url": "https://eager.io/blog/feed.xml",
+            "title": "Eager Blog"
+        },
+        {
+            "url": "https://amp-wp.org/feed/",
+            "title": "AMP for WordPress"
+        },
+        {
+            "url": "http://danielcwilson.com/feed.xml",
+            "title": "Dan Wilson"
+        },
+        {
+            "url": "http://adactio.com/articles/rss",
+            "title": "Adactio: Articles"
+        },
+        {
+            "url": "https://blog.dareboost.com/en/feed/",
+            "title": "Dareboost Blog"
+        },
+        {
+            "url": "http://benfrain.com/feed/",
+            "title": "Ben Frain"
+        },
+        {
+            "url": "https://wattenberger.com/feed/",
+            "title": "Amelia Wattenberger"
+        },
+        {
+            "url": "https://benrobertson.io/feed.xml",
+            "title": "Ben Robertson's RSS Feed"
+        },
+        {
+            "url": "http://carmalou.com/feed.xml",
+            "title": "Carmalou.JS"
+        },
+        {
+            "url": "http://www.andybudd.com/index.rdf",
+            "title": "Andy Budd::Blogography Articles"
+        },
+        {
+            "url": "https://blog.cryptographyengineering.com/feed/",
+            "title": "A Few Thoughts on Cryptographic Engineering"
+        },
+        {
+            "url": "https://overreacted.io/rss.xml",
+            "title": "Dan Abramov's Overreacted Blog RSS Feed"
+        },
+        {
+            "url": "https://blog.mozilla.org/internetcitizen/feed/",
+            "title": "Internet Citizen"
+        },
+        {
+            "url": "https://www.chromestory.com/feed/",
+            "title": "Chrome Story"
+        },
+        {
+            "url": "http://houssein.me/feed.xml",
+            "title": "Houssein Djirdeh"
+        },
+        {
+            "url": "http://codersblock.com/blog/feed/",
+            "title": "Coder's Block"
+        },
+        {
+            "url": "https://boris.schapira.dev/en/feed.xml",
+            "title": "Boris Schapira EN RSS · Boris Schapira"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/ChrisCoyier",
+            "title": "Chris Coyier"
+        },
+        {
+            "url": "http://www.brucelawson.co.uk/feed/",
+            "title": "Bruce Lawson’s personal site"
+        },
+        {
+            "url": "https://francescoschwarz.com/feed.xml",
+            "title": "Francesco Schwarz: articles, links, notes, replies and runs"
+        },
+        {
+            "url": "https://staltz.com/feed.xml",
+            "title": "André Staltz"
+        },
+        {
+            "url": "https://andregarzia.com/feeds/all.atom.xml",
+            "title": "AndreGarzia.com: AndreGarzia.com"
+        },
+        {
+            "url": "http://goodui.org/blog/feed/",
+            "title": "GoodUI Blog Feed"
+        },
+        {
+            "url": "http://hollier.info/feed/",
+            "title": "Dr Scott Hollier – Digital Access Specialist"
+        },
+        {
+            "url": "http://alxgbsn.co.uk/feed/",
+            "title": "Alex Gibson, Front End Developer"
+        },
+        {
+            "url": "http://www.w3.org/blog/CSS?tempskin=_atom",
+            "title": "CSS WG Blog"
+        },
+        {
+            "url": "http://gregoryszorc.com/blog/feed",
+            "title": "Gregory Szorc's Digital Home"
+        },
+        {
+            "url": "http://helloanselm.com/atom.xml",
+            "title": "Feed for Anselm Hannemann’s Writings"
+        },
+        {
+            "url": "https://quitten.github.io/feed.xml",
+            "title": "Barak Tawily"
+        },
+        {
+            "url": "http://hop.ie/feed.xml",
+            "title": "Donovan's Blog - Hop.ie"
+        },
+        {
+            "url": "http://fvsch.com/feed/code/",
+            "title": "Florens Verschelde"
+        },
+        {
+            "url": "https://connected.mozilla.org/feed/",
+            "title": "Connected Devices"
+        },
+        {
+            "url": "http://davidtheclark.com/feed.xml",
+            "title": "David Clark Develops the Web"
+        },
+        {
+            "url": "https://drublic.de/feed.xml",
+            "title": "drublic – Software Architecture - Hans Christian Reinl, Cologne"
+        },
+        {
+            "url": "http://feedpress.me/baldurbjarnason",
+            "title": "Baldur Bjarnason's Notes on the Web"
+        },
+        {
+            "url": "https://pokeinthe.io/feeds/all.atom.xml",
+            "title": "a real poke in the eye… oh…"
+        },
+        {
+            "url": "http://www.idlewords.com/index.xml",
+            "title": "Idle Words"
+        },
+        {
+            "url": "http://www.alexkras.com/feed/",
+            "title": "alexkras.com"
+        },
+        {
+            "url": "https://ciechanow.ski//atom.xml",
+            "title": "Bartosz Ciechanowski"
+        },
+        {
+            "url": "http://www.wirfs-brock.com/allen/feed",
+            "title": "Allen Wirfs-Brock"
+        },
+        {
+            "url": "https://joreteg.com/rss.xml",
+            "title": "Henrik Joreteg's Blog"
+        },
+        {
+            "url": "http://blog.chriszacharias.com/feed",
+            "title": "Chris Zacharias"
+        },
+        {
+            "url": "https://whatisjasongoldstein.com/writing/feed.xml",
+            "title": "Jason Goldstein"
+        },
+        {
+            "url": "https://blog.domenic.me/atom.xml",
+            "title": "Hidden Variables"
+        },
+        {
+            "url": "https://ghinda.net/feed/index.xml",
+            "title": "ghinda.net"
+        },
+        {
+            "url": "http://blog.cjgammon.com/feed.xml",
+            "title": "cjgammon"
+        },
+        {
+            "url": "https://rauchg.com/atom",
+            "title": "Guillermo Rauch"
+        },
+        {
+            "url": "http://feeds.feedburner.com/codinghorror/",
+            "title": "Coding Horror"
+        },
+        {
+            "url": "https://aframe.io/feed.xml",
+            "title": "A-Frame"
+        },
+        {
+            "url": "http://blog.archive.org/feed/",
+            "title": "Internet Archive Blogs"
+        },
+        {
+            "url": "https://trib.tv/feed/",
+            "title": "Andrew Betts"
+        },
+        {
+            "url": "https://babeljs.io/blog/atom.xml",
+            "title": "Babel Blog"
+        },
+        {
+            "url": "http://www.clicktorelease.com/rss.xml",
+            "title": "Clicktorelease"
+        },
+        {
+            "url": "https://www.jackfranklin.co.uk/feed.xml",
+            "title": "Jack Franklin"
+        },
+        {
+            "url": "http://dbaron.org/log/rss1",
+            "title": "David Baron's Weblog"
+        },
+        {
+            "url": "http://annevankesteren.nl/feeds/weblog",
+            "title": "Anne’s Blog"
+        },
+        {
+            "url": "https://bkardell.com/blog/feed.rss",
+            "title": "bkardell.com rss feed"
+        },
+        {
+            "url": "http://dangrover.com/feed.xml",
+            "title": "Dan Grover"
+        },
+        {
+            "url": "http://www.imperialviolet.org/iv-rss.xml",
+            "title": "ImperialViolet"
+        },
+        {
+            "url": "https://50linesofco.de/rss.xml",
+            "title": "50 Lines of Code"
+        },
+        {
+            "url": "http://www.chenhuijing.com/feed.xml",
+            "title": "Chen Hui Jing"
+        },
+        {
+            "url": "http://www.brokenbrowser.com/feed/",
+            "title": "Broken Browser"
+        },
+        {
+            "url": "https://blog.fullstacktraining.com/rss/",
+            "title": "Full Stack Training"
+        },
+        {
+            "url": "http://andreasgal.com/feed/",
+            "title": "Andreas Gal"
+        },
+        {
+            "url": "https://tympanus.net/codrops/collective/feed/",
+            "title": "Collective – Codrops"
+        },
+        {
+            "url": "http://magento.com/blog/feed",
+            "title": "Magento Blog"
+        },
+        {
+            "url": "http://www.practicalecommerce.com/feed/",
+            "title": "Practical Ecommerce"
+        },
+        {
+            "url": "http://feeds.feedburner.com/Pixelsoup",
+            "title": "Shopify Blog - Company"
+        },
+        {
+            "url": "http://gdata.youtube.com/feeds/base/users/GoogleDevelopers/uploads",
+            "title": "GoogleDevelopers's YouTube Videos"
+        },
+        {
+            "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxQvqii1ZqheK2UFB0jYPEA",
+            "title": "Web Tools Weekly"
+        },
+        {
+            "url": "http://gdata.youtube.com/feeds/base/users/ImpressiveWebs/uploads",
+            "title": "Impressive Webs's YouTube Videos"
+        },
+        {
+            "url": "http://www.strategy-business.com/all_updates.xml",
+            "title": "Strategy business"
+        }
+    ]
+}

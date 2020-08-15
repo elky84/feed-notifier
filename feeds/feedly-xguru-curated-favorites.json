@@ -1,0 +1,952 @@
+{
+    "sources-rss": [
+        {
+            "url": "http://feedproxy.google.com/xguru",
+            "title": "구루의 세상사는 이야기"
+        },
+        {
+            "url": "http://feeds.feedburner.com/theendeavour",
+            "title": "The Endeavour"
+        },
+        {
+            "url": "http://simplystatistics.org/feed/",
+            "title": "Simply Statistics"
+        },
+        {
+            "url": "https://blog.gfk.com/feed/",
+            "title": "GfK Insights Blog"
+        },
+        {
+            "url": "http://all3dp.com/feed/",
+            "title": "All3DPAll3DP"
+        },
+        {
+            "url": "https://brunch.co.kr/atom/@@19VB",
+            "title": "Peter"
+        },
+        {
+            "url": "http://newspeppermint.com/category/science-environment/feed/",
+            "title": "과학 – NewsPeppermint"
+        },
+        {
+            "url": "http://www.opencart.kr/feed",
+            "title": "Opencart.kr"
+        },
+        {
+            "url": "http://blog.stackoverflow.com/feed/",
+            "title": "Stack Overflow Blog"
+        },
+        {
+            "url": "https://herewecode.io/blog/rss/",
+            "title": "HereWeCode - Blog"
+        },
+        {
+            "url": "https://code.facebook.com/posts/rss",
+            "title": "Facebook Engineering"
+        },
+        {
+            "url": "http://martinfowler.com/bliki/bliki.atom",
+            "title": "Martin Fowler"
+        },
+        {
+            "url": "https://www.kickstarter.com/backing-and-hacking.atom",
+            "title": "Kickstarter Engineering"
+        },
+        {
+            "url": "http://techblog.netflix.com/feeds/posts/default",
+            "title": "Netflix TechBlog"
+        },
+        {
+            "url": "https://tech.dropbox.com/feed/",
+            "title": "Dropbox Tech Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/nettuts",
+            "title": "Nettuts+"
+        },
+        {
+            "url": "http://feeds.feedburner.com/designshack",
+            "title": "Design Shack"
+        },
+        {
+            "url": "http://jrsinclair.com/index.rss",
+            "title": "James Sinclair"
+        },
+        {
+            "url": "http://blogs.msdn.com/b/visualstudio/rss.aspx",
+            "title": "Visual Studio Blog"
+        },
+        {
+            "url": "http://www.thoughtworks.com/rss/insights.xml",
+            "title": "ThoughtWorks Insights"
+        },
+        {
+            "url": "http://blog.cleancoder.com/atom.xml",
+            "title": "The Clean Code Blog"
+        },
+        {
+            "url": "http://www.ben-morris.com/feed",
+            "title": "Ben Morris. Software architect."
+        },
+        {
+            "url": "https://riccomini.name/feed.xml",
+            "title": ""
+        },
+        {
+            "url": "http://softwareas.com/feed",
+            "title": "Software As She's Developed"
+        },
+        {
+            "url": "http://githubengineering.com/atom.xml",
+            "title": "Engineering – The GitHub Blog"
+        },
+        {
+            "url": "https://daveceddia.com/feed.xml",
+            "title": "Dave Ceddia"
+        },
+        {
+            "url": "http://rss1.smashingmagazine.com/feed/",
+            "title": "Smashing Magazine Feed"
+        },
+        {
+            "url": "http://rss1.smashingmagazine.com/feed/?f=smashing-network",
+            "title": "Smashing Network Feed"
+        },
+        {
+            "url": "https://slack.engineering/feed",
+            "title": "Several People Are Coding"
+        },
+        {
+            "url": "http://engineering.squarespace.com/blog?format=RSS",
+            "title": "Squarespace / Engineering"
+        },
+        {
+            "url": "http://wingolog.org/feed/atom",
+            "title": "wingolog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/jquery/",
+            "title": "jQuery Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/dailyjs",
+            "title": "DailyJS"
+        },
+        {
+            "url": "http://wingolog.org/feed",
+            "title": "wingolog"
+        },
+        {
+            "url": "http://www.osgi.org/feed/",
+            "title": "OSGi Alliance Blog"
+        },
+        {
+            "url": "http://planeteclipse.org/planet/rss10.xml",
+            "title": "Planet Eclipse"
+        },
+        {
+            "url": "http://feeds.feedburner.com/FlowingData",
+            "title": "FlowingData"
+        },
+        {
+            "url": "http://feeds.feedburner.com/FontsInUse",
+            "title": "Fonts In Use"
+        },
+        {
+            "url": "http://www.uxmatters.com/atom.xml",
+            "title": "UXmatters"
+        },
+        {
+            "url": "http://clearleft.com/thinks/rss.xml",
+            "title": "Clearleft | Blog"
+        },
+        {
+            "url": "https://learnui.design/blog/feed.xml",
+            "title": "Learn UI Design - Blog"
+        },
+        {
+            "url": "http://interpiler.com/index.php/feed/",
+            "title": "Interpreting Compiler"
+        },
+        {
+            "url": "http://cfs.tistory.com/custom/named/cy/cyslab/rss.xml",
+            "title": "IT 기획 연구소"
+        },
+        {
+            "url": "http://kimws.wordpress.com/feed/",
+            "title": "우승이의 블로그"
+        },
+        {
+            "url": "http://www.andrewahn.co/feed/",
+            "title": "Andrew Ahn"
+        },
+        {
+            "url": "http://oojoo.tistory.com/rss",
+            "title": "디지털 비즈니스 이야기 By oojoo"
+        },
+        {
+            "url": "http://www.ingray.net/rss",
+            "title": "Minhee Cho"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/hof",
+            "title": "@hof 블로그"
+        },
+        {
+            "url": "http://firejune.com/rss",
+            "title": "FireJune´s Blog"
+        },
+        {
+            "url": "http://estima.wordpress.com/feed/",
+            "title": "에스티마의 인터넷이야기"
+        },
+        {
+            "url": "http://www.baenefit.com/feeds/posts/default",
+            "title": "Life Away From Wharton"
+        },
+        {
+            "url": "http://feedproxy.google.com/channy",
+            "title": "Channy's Blog"
+        },
+        {
+            "url": "http://offree.net/rss",
+            "title": "도아의 세상사는 이야기"
+        },
+        {
+            "url": "http://macnews.tistory.com/rss",
+            "title": "Back to the Mac"
+        },
+        {
+            "url": "http://likejazz.com/rss",
+            "title": "Lifehacks"
+        },
+        {
+            "url": "http://inuit.co.kr/rss",
+            "title": "Inuit Blogged"
+        },
+        {
+            "url": "http://joone.net/blog/?feed=rss2",
+            "title": "Joone.net"
+        },
+        {
+            "url": "http://gluebyte.tumblr.com/rss",
+            "title": "gluebyte"
+        },
+        {
+            "url": "http://sungmooncho.com/feed/",
+            "title": "조성문의 블로그"
+        },
+        {
+            "url": "http://soob.me/feed/",
+            "title": "Soob"
+        },
+        {
+            "url": "http://feeds.feedburner.com/goodhyun",
+            "title": "낭만 IT"
+        },
+        {
+            "url": "http://sungmoon.wordpress.com/feed/",
+            "title": "Sungmoon's Blog"
+        },
+        {
+            "url": "http://techit.co.kr/feed",
+            "title": "Tech It!"
+        },
+        {
+            "url": "http://masterfarseer.blogspot.com/feeds/posts/default",
+            "title": "번역 블로그"
+        },
+        {
+            "url": "http://boxnwhis.kr/feed.xml",
+            "title": "-[|]- Box and Whisker"
+        },
+        {
+            "url": "http://nachbaur.com/feed",
+            "title": "iOS/Web Developer's Life in Beta"
+        },
+        {
+            "url": "http://useyourloaf.com/blog/rss.xml",
+            "title": "Use Your Loaf"
+        },
+        {
+            "url": "http://feeds.feedburner.com/RayWenderlich",
+            "title": "Ray Wenderlich"
+        },
+        {
+            "url": "http://cocoawithlove.com/feeds/posts/default",
+            "title": "Cocoa with Love"
+        },
+        {
+            "url": "http://developer.apple.com/rss/iphonedevnews.rss",
+            "title": "iPhone Developer News"
+        },
+        {
+            "url": "https://www.44bits.io/ko/feed/all",
+            "title": "44BITS: IT 뉴스, 클라우드 컴퓨팅, 프로그래밍, 컨테이너, 리눅스"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/rss_outsider_dev",
+            "title": "Outsider's Dev Story"
+        },
+        {
+            "url": "https://medium.com/feed/rainist-engineering/",
+            "title": "Banksalad Tech - Medium"
+        },
+        {
+            "url": "http://woowabros.github.io/feed.xml",
+            "title": "우아한형제들 기술 블로그"
+        },
+        {
+            "url": "https://ryanking13.github.io///feed.xml",
+            "title": "Morgenrøde"
+        },
+        {
+            "url": "http://engineering.vcnc.co.kr/atom.xml",
+            "title": "VCNC Engineering Blog"
+        },
+        {
+            "url": "https://engineering.linecorp.com/ko/feed/",
+            "title": "LINE ENGINEERING"
+        },
+        {
+            "url": "https://jbee.io/rss.xml",
+            "title": "JBEE.io"
+        },
+        {
+            "url": "https://meetup.toast.com/rss",
+            "title": "TOAST Meetup"
+        },
+        {
+            "url": "https://zuminternet.github.io/feed.xml",
+            "title": "ZUM 기술 블로그"
+        },
+        {
+            "url": "https://masterfarseer.blogspot.com/feeds/posts/default?alt=rss",
+            "title": "번역 블로그"
+        },
+        {
+            "url": "https://medium.com/feed/hbsmith",
+            "title": "Hard Boiled Smith Stories"
+        },
+        {
+            "url": "https://jacking75.github.io/feed.xml",
+            "title": "jacking75"
+        },
+        {
+            "url": "https://medium.com/feed/@euncho/",
+            "title": "Stories by 조은, Eun Cho on Medium"
+        },
+        {
+            "url": "http://thefarmersfront.github.io/feed.xml",
+            "title": "컬리 기술 블로그"
+        },
+        {
+            "url": "http://minjang.github.io/feed.xml",
+            "title": "/* the devil is in the detail */"
+        },
+        {
+            "url": "https://cojette.github.io/feed.xml",
+            "title": "cojette.github.io"
+        },
+        {
+            "url": "http://spoqa.github.com/atom.xml",
+            "title": "Spoqa tech blog"
+        },
+        {
+            "url": "http://d2.naver.com/d2.atom",
+            "title": "D2 Blog"
+        },
+        {
+            "url": "http://blog.nacyot.com/feed.xml",
+            "title": "Nacyot의 프로그래밍 이야기"
+        },
+        {
+            "url": "https://rinae.dev/rss.xml",
+            "title": "rinae's devlog"
+        },
+        {
+            "url": "https://chodragon9.github.io//feed.xml",
+            "title": "Peter Cho"
+        },
+        {
+            "url": "https://subicura.com/feed.xml",
+            "title": "Subicura's Blog"
+        },
+        {
+            "url": "https://ericygkim.wordpress.com/feed/",
+            "title": "My life with passion and desire"
+        },
+        {
+            "url": "https://www.sangkon.com/rss/",
+            "title": "Sangkon Han(SigmaDream, sd or SD)"
+        },
+        {
+            "url": "https://johngrib.github.io/feed.xml",
+            "title": "기계인간 John Grib"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/blogspot/ASpE",
+            "title": "컴퓨터 vs 책"
+        },
+        {
+            "url": "http://feeds.feedburner.com/Smartmob",
+            "title": "Mimul's Developer World"
+        },
+        {
+            "url": "https://medium.com/feed/daangn/",
+            "title": "당근마켓 팀블로그 - Medium"
+        },
+        {
+            "url": "https://teamdable.github.io/techblog/feed.xml",
+            "title": "Dable Tech Blog"
+        },
+        {
+            "url": "https://api.velog.io/atom/@chris",
+            "title": "Sungmin Chris Yang"
+        },
+        {
+            "url": "http://feeds.feedburner.com/miraculous",
+            "title": "mir.aculo.us"
+        },
+        {
+            "url": "http://feeds.feedburner.com/robertnyman",
+            "title": "Robert's talk"
+        },
+        {
+            "url": "http://feeds.feedburner.com/XHTMLized",
+            "title": "XHTMLized"
+        },
+        {
+            "url": "http://meyerweb.com/eric/thoughts/rss2/summary",
+            "title": "Thoughts From Eric"
+        },
+        {
+            "url": "http://www.zachleat.com/web/feed/",
+            "title": "Web 3.0, 6 Bladed Razors, 7 Minute Abs"
+        },
+        {
+            "url": "http://feeds.feedburner.com/westonruter",
+            "title": "Weston Ruter"
+        },
+        {
+            "url": "http://leaverou.me/feed/",
+            "title": "Lea Verou"
+        },
+        {
+            "url": "http://feeds.feedburner.com/davidskitchen",
+            "title": "David's kitchen"
+        },
+        {
+            "url": "http://googlecode.blogspot.com/feeds/posts/default",
+            "title": "Google Code Blog"
+        },
+        {
+            "url": "http://weblog.bocoup.com/feed",
+            "title": "Bocoup Web Log"
+        },
+        {
+            "url": "http://www.webdirections.org/category/blog/feed",
+            "title": "Web Directions » Blog"
+        },
+        {
+            "url": "http://www.bennadel.com/index.cfm?dax=blog.rss&lst_tag_id=14,16,3,5,9,6,7,13,18,20,10,15",
+            "title": "Ben Nadel"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/ImpressiveWebs",
+            "title": "Impressive Webs"
+        },
+        {
+            "url": "http://feeds.feedburner.com/snookca",
+            "title": "Jonathan Snook"
+        },
+        {
+            "url": "http://my.opera.com/karlcow/xml/rss/blog/",
+            "title": "karlCOW"
+        },
+        {
+            "url": "http://feeds.feedburner.com/dailyjs",
+            "title": "DailyJS"
+        },
+        {
+            "url": "http://softwareas.com/feed",
+            "title": "Software As She's Developed"
+        },
+        {
+            "url": "http://feeds.feedburner.com/CarrerBlog",
+            "title": "Carrer Blog"
+        },
+        {
+            "url": "http://rss1.smashingmagazine.com/feed/?f=coding-std",
+            "title": "Smashing Coding"
+        },
+        {
+            "url": "http://www.alistapart.com/rss.xml",
+            "title": "A List Apart"
+        },
+        {
+            "url": "http://feeds.feedburner.com/EnterpriseJquery",
+            "title": "Enterprise jQuery"
+        },
+        {
+            "url": "http://www.filamentgroup.com/lab/atom/",
+            "title": "Filament Group, Inc: Lab"
+        },
+        {
+            "url": "http://fortes.com/feed/",
+            "title": "fortes.com"
+        },
+        {
+            "url": "http://www.phpied.com/feed/",
+            "title": "phpied.com"
+        },
+        {
+            "url": "http://feeds.feedburner.com/nczonline",
+            "title": "NCZOnline"
+        },
+        {
+            "url": "http://www.wait-till-i.com/wp-atom.php",
+            "title": "Christian Heilmann"
+        },
+        {
+            "url": "http://www.quirksmode.org/blog/atom.xml",
+            "title": "QuirksBlog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/jquery/",
+            "title": "jQuery Blog"
+        },
+        {
+            "url": "http://vocamus.net/dave/?feed=rss2",
+            "title": "David Humphrey"
+        },
+        {
+            "url": "http://feeds.feedburner.com/codrops",
+            "title": "Codrops"
+        },
+        {
+            "url": "http://feeds.feedburner.com/JamesPadolsey",
+            "title": "James Padolsey"
+        },
+        {
+            "url": "http://pmuellr.blogspot.com/feeds/posts/default",
+            "title": "pmuellr"
+        },
+        {
+            "url": "http://dhtmlkitchen.com/news/feed/",
+            "title": "DHTML Kitchen News"
+        },
+        {
+            "url": "http://mathiasbynens.be/notes.atom",
+            "title": "Mathias Bynens"
+        },
+        {
+            "url": "http://net.tutsplus.com/feed/",
+            "title": "Nettuts+"
+        },
+        {
+            "url": "http://feeds.feedburner.com/remysharp",
+            "title": "Remy Sharp"
+        },
+        {
+            "url": "http://www.bitstampede.com/feed/",
+            "title": "Bit Stampede"
+        },
+        {
+            "url": "http://www.brucelawson.co.uk/feed/",
+            "title": "Bruce Lawson's  personal site"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/HtmlCssJavascript",
+            "title": "HTML + CSS + JavaScript"
+        },
+        {
+            "url": "http://my.opera.com/hallvors/xml/rss/blog/",
+            "title": "miscoded"
+        },
+        {
+            "url": "http://d.hatena.ne.jp/swdyh/rss",
+            "title": "SWDYH"
+        },
+        {
+            "url": "http://sebleedelisle.com/feed/",
+            "title": "Seb Lee-Delisle"
+        },
+        {
+            "url": "http://dmitrysoshnikov.com/feed/",
+            "title": "ECMA-262"
+        },
+        {
+            "url": "http://my.opera.com/ruario/xml/rss/blog/fonts",
+            "title": "Ruari's thoughts"
+        },
+        {
+            "url": "http://feeds.feedburner.com/adaptivepath",
+            "title": "Adaptive Path"
+        },
+        {
+            "url": "http://givemesomethingtoread.com/rss",
+            "title": "Give Me Something To Read"
+        },
+        {
+            "url": "http://feeds.feedburner.com/Social-insightLab",
+            "title": "Social-Insight LAB"
+        },
+        {
+            "url": "http://feeds.feedburner.com/snoopybox",
+            "title": "snoopybox"
+        },
+        {
+            "url": "http://feeds.feedburner.com/blogspot/ASpE",
+            "title": "컴퓨터 vs 책"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/blogspot/InternetMap",
+            "title": "지도와 Web2.0 그리고 한국의 미래"
+        },
+        {
+            "url": "http://newspeppermint.com/category/it/feed/",
+            "title": "IT – NewsPeppermint"
+        },
+        {
+            "url": "http://germweapon.tistory.com/rss",
+            "title": "세균무기, 지구별에 흔적을 남기다!"
+        },
+        {
+            "url": "http://techneedle.com/?feed=rss2",
+            "title": "techNeedle 테크니들"
+        },
+        {
+            "url": "http://feedproxy.google.com/poem23",
+            "title": "학주니닷컴"
+        },
+        {
+            "url": "http://feedproxy.google.com/blogspot/vCGH",
+            "title": "Google 한국 블로그"
+        },
+        {
+            "url": "http://feedproxy.google.com/Lunamoth",
+            "title": "lunamoth 3rd"
+        },
+        {
+            "url": "http://feeds.feedburner.com/Bloter",
+            "title": "Bloter.net"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/MobileOrchard",
+            "title": "Mobile Orchard"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/cocoadev",
+            "title": "OS X에서 cocoa 맛보기"
+        },
+        {
+            "url": "http://feeds.feedburner.com/StrategyBusiness-AllUpdates",
+            "title": "strategy+business - All Updates"
+        },
+        {
+            "url": "http://feeds.feedburner.com/pragandy",
+            "title": "/\\ndy"
+        },
+        {
+            "url": "http://www.ibm.com/developerworks/kr/views/rss/customrssatom.jsp?zone_by=Web+services&type_by=Articles&type_by=Tutorials&search_by=&day=1&month=01&year=2004&max_entries=10&feed_by=rss&isGUI=true&Submit.x=36&Submit.y=12",
+            "title": "developerWorks : Web services"
+        },
+        {
+            "url": "http://www.agilejava.net/tt/rss",
+            "title": "Agile Java Network 시즌1:기동성 훈련단"
+        },
+        {
+            "url": "http://gmailblog.blogspot.com/atom.xml",
+            "title": "Gmail Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/HighScalability",
+            "title": "High Scalability"
+        },
+        {
+            "url": "http://snook.ca/jonathan/index.rdf",
+            "title": "Snook.ca"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/ProgrammableWeb",
+            "title": "ProgrammableWeb"
+        },
+        {
+            "url": "http://nerds.airbnb.com/feed/",
+            "title": "Airbnb Engineering & Data Science - Medium"
+        },
+        {
+            "url": "http://googledocs.blogspot.com/feeds/posts/default",
+            "title": "Docs Blog"
+        },
+        {
+            "url": "https://blog.chromium.org/feeds/posts/default",
+            "title": "Chromium Blog"
+        },
+        {
+            "url": "http://www.ebaytechblog.com/feed/",
+            "title": "eBay Tech Blog"
+        },
+        {
+            "url": "http://developers.facebook.com/blog/feed",
+            "title": "Facebook Developer Blog"
+        },
+        {
+            "url": "http://practicalquant.blogspot.com/feeds/posts/default",
+            "title": "The Practical Quant"
+        },
+        {
+            "url": "http://www.allthingsdistributed.com/atom.xml",
+            "title": "All Things Distributed"
+        },
+        {
+            "url": "http://perspectives.mvdirona.com/SyndicationService.asmx/GetRss",
+            "title": "Perspectives"
+        },
+        {
+            "url": "http://engineering.tumblr.com/rss",
+            "title": "Tumblr Engineering"
+        },
+        {
+            "url": "http://feeds.feedburner.com/LinkedInBlog",
+            "title": "The LinkedIn Blog"
+        },
+        {
+            "url": "http://lethain.com/feeds/",
+            "title": "Irrational Exuberance"
+        },
+        {
+            "url": "http://feeds.feedburner.com/NatiShalom",
+            "title": "Nati Shalom's Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/37signals/beMH",
+            "title": "Signal vs. Noise"
+        },
+        {
+            "url": "http://code.flickr.com/blog/feed/",
+            "title": "Code: Flickr Developer Blog"
+        },
+        {
+            "url": "http://googlecode.blogspot.com/atom.xml",
+            "title": "Google Code Blog"
+        },
+        {
+            "url": "http://chrome.blogspot.com/atom.xml",
+            "title": "Google Chrome Blog"
+        },
+        {
+            "url": "http://hacks.mozilla.org/feed/",
+            "title": "Mozilla Hacks - the Web developer blog"
+        },
+        {
+            "url": "http://adwordsapi.blogspot.com/atom.xml",
+            "title": "Google Ads Developer Blog"
+        },
+        {
+            "url": "http://insidesearch.blogspot.com/atom.xml",
+            "title": "Inside Search"
+        },
+        {
+            "url": "http://www.infoq.com/rss/rss.action?token=99Ax1oOiPY2DxhaqW3nBszRxIQiuxjoJ",
+            "title": "InfoQ Personalized Feed for Chris Kwon"
+        },
+        {
+            "url": "http://feeds.feedburner.com/GoogleDevelopersKorea",
+            "title": "Google Developers Korea Blog"
+        },
+        {
+            "url": "https://www.blogger.com/feeds/32069983/posts/default",
+            "title": "Official Google Webmaster Central Blog"
+        },
+        {
+            "url": "http://www.zdnet.com/blog/hinchcliffe/rss",
+            "title": "Enterprise Web 2.0 Blog RSS | ZDNet"
+        },
+        {
+            "url": "http://herbsutter.com/feed/",
+            "title": "Sutter’s Mill"
+        },
+        {
+            "url": "http://googlewebmastercentral.blogspot.com/atom.xml",
+            "title": "Google Webmaster Central Blog"
+        },
+        {
+            "url": "http://www.html5rocks.com/tutorials/index.xml",
+            "title": "HTML5Rocks - Tutorials"
+        },
+        {
+            "url": "http://techblog.netflix.com/rss.xml",
+            "title": "The Netflix Tech Blog"
+        },
+        {
+            "url": "http://feeds.feedburner.com/TheFoodFightShow",
+            "title": "The Food Fight Show"
+        },
+        {
+            "url": "http://android-developers.blogspot.com/atom.xml",
+            "title": "Android Developers Blog"
+        },
+        {
+            "url": "https://code.mixpanel.com/feed/",
+            "title": "Mixpanel Engineering"
+        },
+        {
+            "url": "http://kccl.co.kr/rss",
+            "title": "한중콘텐츠연구소"
+        },
+        {
+            "url": "https://www.thinkwithgoogle.com/intl/ko-kr/rss.xml",
+            "title": "Think with Google: Marketing Research & Digital Trends"
+        },
+        {
+            "url": "https://ebadak.news/feed/",
+            "title": "이바닥늬우스"
+        },
+        {
+            "url": "http://www.brucelawson.co.uk/feed/atom/",
+            "title": "Bruce Lawson's  personal site"
+        },
+        {
+            "url": "http://www.kalzumeus.com/feed/",
+            "title": "MicroISV on a Shoestring"
+        },
+        {
+            "url": "http://ma.tt/feed/",
+            "title": "Matt Mullenweg"
+        },
+        {
+            "url": "http://feeds.feedburner.com/theletter",
+            "title": "The Letter"
+        },
+        {
+            "url": "https://tkainrad.dev/posts/index.xml",
+            "title": "Posts on tkainrad"
+        },
+        {
+            "url": "http://feeds.feedburner.com/RoyalPingdom",
+            "title": "Royal Pingdom"
+        },
+        {
+            "url": "http://feeds.feedburner.com/KISSmetrics",
+            "title": "The KISSmetrics Marketing Blog"
+        },
+        {
+            "url": "http://mobiledevmemo.com/feed/",
+            "title": "Mobile Dev Memo"
+        },
+        {
+            "url": "http://www.wait-till-i.com/feed/",
+            "title": "Christian Heilmann's blog - Wait till I come!"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/oreilly/radar/atom",
+            "title": "O'Reilly Radar - Insight, analysis, and research about emerging technologies."
+        },
+        {
+            "url": "http://www.joelonsoftware.com/rss.xml",
+            "title": "Joel on Software"
+        },
+        {
+            "url": "http://feeds.feedburner.com/TheAkamaiBlog",
+            "title": "The Akamai Blog"
+        },
+        {
+            "url": "http://daringfireball.net/index.xml",
+            "title": "Daring Fireball"
+        },
+        {
+            "url": "http://www.asymco.com/feed/",
+            "title": "asymco"
+        },
+        {
+            "url": "http://www.quirksmode.org/blog/atom.xml",
+            "title": "QuirksBlog"
+        },
+        {
+            "url": "http://glazkov.com/feed/atom/",
+            "title": "Dimitri Glazkov"
+        },
+        {
+            "url": "https://dcgross.com/feed.xml",
+            "title": "Daniel Gross"
+        },
+        {
+            "url": "http://feeds.feedburner.com/paulstamatiou",
+            "title": "PaulStamatiou.com - Technology, Design and Photography"
+        },
+        {
+            "url": "http://feeds2.feedburner.com/Smarterware",
+            "title": "Smarterware"
+        },
+        {
+            "url": "http://feeds.splatf.com/splatf",
+            "title": "SplatF"
+        },
+        {
+            "url": "http://feeds.feedburner.com/shawnblanc",
+            "title": "Shawn Blanc"
+        },
+        {
+            "url": "http://feeds.feedburner.com/thetechnium",
+            "title": "The Technium"
+        },
+        {
+            "url": "http://feeds.feedburner.com/mtrostylenet",
+            "title": "mtrostyle.net"
+        },
+        {
+            "url": "http://feeds.feedburner.com/mattgemmell/rss2",
+            "title": "Matt Gemmell"
+        },
+        {
+            "url": "https://overreacted.io/rss.xml",
+            "title": "Dan Abramov's Overreacted Blog RSS Feed"
+        },
+        {
+            "url": "http://duncandavidson.com/blog/feed.xml",
+            "title": "Duncan Davidson"
+        },
+        {
+            "url": "http://www.marco.org/rss",
+            "title": "Marco.org"
+        },
+        {
+            "url": "http://www.alistapart.com/site/rss",
+            "title": "A List Apart"
+        },
+        {
+            "url": "http://www.mooreds.com/wordpress/feed",
+            "title": "Dan Moore!"
+        },
+        {
+            "url": "http://a16z.com/feed/",
+            "title": "Andreessen Horowitz"
+        },
+        {
+            "url": "http://feeds.feedburner.com/GeekingWithGreg",
+            "title": "Geeking with Greg"
+        },
+        {
+            "url": "https://medium.com/feed/startup-grind",
+            "title": "Startup Grind"
+        },
+        {
+            "url": "http://labnotes.org/feed/atom/",
+            "title": "Labnotes"
+        },
+        {
+            "url": "http://feeds.feedburner.com/FunctioningForm",
+            "title": "LukeW |  Writings on Digital Product Strategy and Design"
+        },
+        {
+            "url": "http://ihnatko.com/feed/atom/",
+            "title": "Andy Ihnatko's Celestial Waste of Bandwidth (BETA)"
+        },
+        {
+            "url": "https://brunch.co.kr/atom/@@575g",
+            "title": "OOJOO"
+        }
+    ]
+}
