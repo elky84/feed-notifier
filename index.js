@@ -39,11 +39,15 @@ function pollFeed() {
         _.forEach(feeds, function(source) {
             promises.push(parser.parseURL(source.url, function(err, feed) {
                 if (err) {
-                    console.log(err);
+                    console.log(`${err}, url:${source.url}`);
                     return;
                 }
 
                 console.log(feed.title);
+
+                if(feed.title == 'ㅍㅍㅅㅅ') {
+                    console.log(feed.title);
+                }
 
                 var latestTime = latest[feed.title];
                 if( latestTime == undefined) {
@@ -68,7 +72,7 @@ function pollFeed() {
                             return false;
                         }
     
-                        if(pubDate.isBefore(moment())) {
+                        if(moment().isBefore(pubDate)) {
                             return false;
                         }
     
