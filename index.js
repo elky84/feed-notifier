@@ -58,6 +58,10 @@ function pollFeed() {
                 var messages = []
                 feed.items.forEach(item => {
                     // console.log(item.title + ':' + item.link)
+                    if(item.pubDate == undefined) {
+                        return false;
+                    }
+
                     var pubDate = moment(item.pubDate);
                     if(!latestTime.isBefore(pubDate)) {
                         return false;
