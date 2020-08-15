@@ -58,28 +58,33 @@ function pollFeed() {
                 var messages = []
                 feed.items.forEach(item => {
                     // console.log(item.title + ':' + item.link)
-                    if(item.pubDate == undefined) {
-                        return false;
+                    try {
+                        if( _.isNil(item.pubDate)) {
+                            return false;
+                        }
+                        
+                        var pubDate = moment(item.pubDate);
+                        if(!latestTime.isBefore(pubDate)) {
+                            return false;
+                        }
+    
+                        if(pubDate.isBefore(moment())) {
+                            return false;
+                        }
+    
+                        if(nextLatestTime.isBefore(pubDate)) {
+                            nextLatestTime = pubDate;
+                        }
+    
+                        if(item.link.includes('https://')) {
+                            messages.push(`[${item.title}'] ${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
+                        }
+                        else {
+                            messages.push(`[${item.title}'] ${feed.link}${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
+                        }
                     }
-
-                    var pubDate = moment(item.pubDate);
-                    if(!latestTime.isBefore(pubDate)) {
-                        return false;
-                    }
-
-                    if(pubDate.isBefore(moment())) {
-                        return false;
-                    }
-
-                    if(nextLatestTime.isBefore(pubDate)) {
-                        nextLatestTime = pubDate;
-                    }
-
-                    if(item.link.includes('https://')) {
-                        messages.push(`[${item.title}'] ${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
-                    }
-                    else {
-                        messages.push(`[${item.title}'] ${feed.link}${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
+                    catch(e) {
+                        console.error(e);
                     }
                 });
 
@@ -103,7 +108,7 @@ function pollFeed() {
         });
     }
     catch(e) {
-        console.log(e);
+        console.error(e);
         setTimeout(pollFeed, 3 * 60 * 1000);
     }
 }
