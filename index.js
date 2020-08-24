@@ -39,7 +39,7 @@ function pollFeed() {
 
                 console.log(feed.title);
 
-                let latestFile = `./${latestDir}/${feed.title.replace(' ', '_')}.json`;
+                let latestFile = `./${latestDir}/${feed.title.replace(/ /g,"_")}.json`;
                 try {
                     latest = JSON.parse(fs.readFileSync(latestFile, 'utf8'));
                 }
