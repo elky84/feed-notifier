@@ -4,6 +4,7 @@ var _ = require('lodash');
 let Parser = require('rss-parser');
 let parser = new Parser();
 var moment = require('moment')
+var sanitize = require("sanitize-filename");
 
 var config = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
 console.log("config: " + JSON.stringify(config));
@@ -27,23 +28,19 @@ var latestDir = 'latest';
 !fs.existsSync(latestDir) && fs.mkdirSync(latestDir);
 
 function pollFeed() {
-    var latest = {};
     try {
         const hook = config["hook"];
         _.forEach(feeds, function(source) {
-            parser.parseURL(source.url, function(err, feed) {
-                if (err) {
-                    console.log(`${err}, url:${source.url}`);
-                    return;
-                }
-
+            (async () => {
+                let feed = await parser.parseURL(source.url);
                 console.log(feed.title);
 
                 if(feed.title == undefined) {
                     return;
                 }
 
-                let latestFile = `./${latestDir}/${feed.title.replace(/ /g,"_")}.json`;
+                var latest = {};
+                let latestFile = `./${latestDir}/${sanitize(feed.title)}.json`;
                 try {
                     latest = JSON.parse(fs.readFileSync(latestFile, 'utf8'));
                 }
@@ -106,7 +103,7 @@ function pollFeed() {
                     
                     fs.writeFileSync(latestFile, JSON.stringify(latest));
                 });
-            });
+            })();
         });
     }
     catch(e) {
