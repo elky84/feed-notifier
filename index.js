@@ -23,21 +23,15 @@ fs.readdir(dirPath, function (err, files) {
     pollFeed();
 });
 
+var latestDir = 'latest';
+!fs.existsSync(latestDir) && fs.mkdirSync(latestDir);
 
 function pollFeed() {
     var latest = {};
     try {
         const hook = config["hook"];
-        try {
-            latest = JSON.parse(fs.readFileSync('./latest.json', 'utf8'));
-        }
-        catch(err) {
-            console.log(err);
-        }
-
-        var promises = []
         _.forEach(feeds, function(source) {
-            promises.push(parser.parseURL(source.url, function(err, feed) {
+            parser.parseURL(source.url, function(err, feed) {
                 if (err) {
                     console.log(`${err}, url:${source.url}`);
                     return;
@@ -45,11 +39,15 @@ function pollFeed() {
 
                 console.log(feed.title);
 
-                if(feed.title == 'ㅍㅍㅅㅅ') {
-                    console.log(feed.title);
+                let latestFile = `./${latestDir}/${feed.title}.json`;
+                try {
+                    latest = JSON.parse(fs.readFileSync(latestFile, 'utf8'));
                 }
+                catch(err) {
+                    console.log(`${latestFile} not found.`);
+                }        
 
-                var latestTime = latest[feed.title];
+                var latestTime = latest['Time'];
                 if( latestTime == undefined) {
                     latestTime = moment().subtract(1, 'week');
                 }
@@ -92,8 +90,7 @@ function pollFeed() {
                     }
                 });
 
-
-                latest[feed.title] = nextLatestTime;
+                latest['Time'] = nextLatestTime;
                 
                 if(messages.length <= 0) {
                     return;
@@ -102,17 +99,18 @@ function pollFeed() {
                 message = {"text": messages.join("\n"), "username": feed.title, "icon_url": hook.icon_url, "channel": hook.channel}
                 axios.post(hook.hook_url, message).then((result) => {
                     console.log(result);
+                    
+                    fs.writeFileSync(latestFile, JSON.stringify(latest));
                 });
-            }));
-        });
-
-        Promise.all(promises).then((values) => {
-            fs.writeFileSync('./latest.json', JSON.stringify(latest));
-            setTimeout(pollFeed, 3 * 60 * 1000);
+            });
         });
     }
     catch(e) {
         console.error(e);
-        setTimeout(pollFeed, 3 * 60 * 1000);
     }
 }
+
+// 처음 한번은 바로 실행
+pollFeed();
+
+setInterval(pollFeed, 3 * 60 * 1000);
