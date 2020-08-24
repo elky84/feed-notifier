@@ -39,6 +39,10 @@ function pollFeed() {
 
                 console.log(feed.title);
 
+                if(feed.title == undefined) {
+                    return;
+                }
+
                 let latestFile = `./${latestDir}/${feed.title.replace(/ /g,"_")}.json`;
                 try {
                     latest = JSON.parse(fs.readFileSync(latestFile, 'utf8'));
@@ -108,9 +112,10 @@ function pollFeed() {
     catch(e) {
         console.error(e);
     }
+    finally {
+        setTimeout(pollFeed, 3 * 60 * 1000);
+    }
 }
 
 // 처음 한번은 바로 실행
 pollFeed();
-
-setInterval(pollFeed, 3 * 60 * 1000);
