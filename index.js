@@ -92,7 +92,8 @@ function pollFeed() {
                 });
 
                 latest['Time'] = nextLatestTime;
-                
+                fs.writeFileSync(latestFile, JSON.stringify(latest));
+
                 if(messages.length <= 0) {
                     return;
                 }
@@ -100,8 +101,6 @@ function pollFeed() {
                 message = {"text": messages.join("\n"), "username": feed.title, "icon_url": hook.icon_url, "channel": hook.channel}
                 axios.post(hook.hook_url, message).then((result) => {
                     console.log(result);
-                    
-                    fs.writeFileSync(latestFile, JSON.stringify(latest));
                 });
             })();
         });
