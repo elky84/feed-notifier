@@ -79,12 +79,9 @@ function pollFeed() {
                             nextLatestTime = pubDate;
                         }
     
-                        if(item.link.includes('https://') || item.link.includes('http://')) {
-                            messages.push(`[${item.title}'] ${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
-                        }
-                        else {
-                            messages.push(`[${item.title}'] ${feed.link}${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
-                        }
+                        messages.push(item.link.includes('https://') || item.link.includes('http://') ?
+                            `[${item.title}'] ${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>` :
+                            `[${item.title}'] ${feed.link}${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
                     }
                     catch(e) {
                         console.error(e);
@@ -94,14 +91,24 @@ function pollFeed() {
                 latest['Time'] = nextLatestTime;
                 fs.writeFileSync(latestFile, JSON.stringify(latest));
 
+                
                 if(messages.length <= 0) {
                     return;
                 }
 
-                message = {"text": messages.join("\n"), "username": feed.title, "icon_url": hook.icon_url, "channel": hook.channel}
-                axios.post(hook.hook_url, message).then((result) => {
-                    console.log(result);
-                });
+                var check = /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/;
+                const checkKorean = (element) => check.test(element);
+
+                axios.post(hook.hook_url, 
+                    {
+                        "text": messages.join("\n"), 
+                        "username": feed.title, 
+                        "icon_url": hook.icon_url, 
+                        "channel": messages.some(checkKorean) ? hook.channel : hook.channel_eng
+                    })
+                    .then((result) => {
+                        console.log(result);
+                    });
             })();
         });
     }
