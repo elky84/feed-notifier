@@ -10,7 +10,7 @@
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/elky84/feed_notifier.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/elky84/feed_notifier.svg)
 
-# feed_notifier
+# feed-notifier
 
 ## rss feed notifier (to slack)
 
