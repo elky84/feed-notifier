@@ -80,8 +80,8 @@ function pollFeed() {
                         }
     
                         messages.push(item.link.includes('https://') || item.link.includes('http://') ?
-                            `[${item.title}'] ${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>` :
-                            `[${item.title}'] ${feed.link}${item.link} < ${pubDate.format('YYYY-MM-DD HH:mm')}>`);
+                            `<${item.link}'|${item.title}> [${pubDate.format('YYYY-MM-DD HH:mm')}]` :
+                            `<${feed.link}${item.link}'|${item.title}> [${pubDate.format('YYYY-MM-DD HH:mm')}]`);
                     }
                     catch(e) {
                         console.error(e);
